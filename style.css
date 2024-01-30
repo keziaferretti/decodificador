@@ -1,0 +1,126 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 150%;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+header {
+    margin-left: 40px;
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+.input-texto {
+    margin-top: 90px;
+    background-color: #E5E5E5;
+    color: #0A3871;
+    border: none;
+    border: #E5E5E5;
+}
+
+
+.input-texto:focus{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+.mensagem {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url('menino.svg');
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 80%;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+} 
+
+.mensagem:focus{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+.encriptar {
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+}
+
+.desencriptar {
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+button:hover {
+    transition: 0.3s;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+.copiar {
+    position: relative;
+    margin-top: 500px;
+    margin-left: 160px;
+    color: #0A3871;
+    width: 190px;
+    height: 60px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+.limpar {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 160px;
+    color: #0A3871;
+    width: 190px;
+    height: 60px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
+
+
+.informacoes {
+    opacity: 0.80; 
+    color: #495057; 
+    font-size: 12px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    line-height: 18px; 
+    word-wrap: break-word;
+
+}
+
+.rodape {
+    text-align: center;
+	padding: 40px 0;
+
+}
+

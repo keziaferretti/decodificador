@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="Logo.svg" alt="logo da Alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="input-texto" cols="80" rows="12" placeholder="Digite seu texto"></textarea>
+            <div>
+                <h6 class="informacoes"> <img src="bi_exclamation-circle-fill.svg" alt="ponto esclamação"> Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div>
+                <button class="encriptar" onclick="btnCriptografar()">
+                    Criptografar
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Descriptografar
+                </button>
+            </div>
+        </section>
+    
+        <section>
+            <div class="mensagem-box">
+                 <textarea class="mensagem" id="mensagem" name="mensagem" cols="30" rows="22"></textarea>
+
+            </div>
+
+           
+            <div class="div-aparece">
+                <button class="copiar" onclick="copiarTexto()">Copiar</button>
+                <button class="limpar" onclick="limparTexto()">Limpar</button>
+            </div>
+
+        </section>
+    </main>
+    
+
+    <script src="app.js"></script>
+    <footer>
+        <p class="rodape">Kézia Ferretti 2024
+            <br> 
+            <a class="apresentacao__links__navegacao" href="https://github.com/keziaferretti">
+                <img src="github.png"></a>
+            <a class="apresentacao__links__navegacao" href="https://linkedin.com/in/kezia-ferretti">
+                <img src="linkedin.png"></a>
+
+        </p>
+    </footer>
+
+</body>
+
+</html>
